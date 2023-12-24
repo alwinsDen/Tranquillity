@@ -15,3 +15,18 @@ var urbanistFont = FontFamily(
     Font(R.font.urbanist_bold, FontWeight.Bold),
     Font(R.font.urbanist_extrabold, FontWeight.ExtraBold)
 )
+
+//added the sevillana font
+var sevillanaFont = FontFamily(
+    Font(R.font.sevillana_regular, FontWeight.Normal)
+)
+
+
+//added Garamond font
+var garamondFont = FontFamily(
+    Font(R.font.ebgaramond_bold, FontWeight.Bold),
+    Font(R.font.ebgaramond_regular, FontWeight.Normal),
+    Font(R.font.ebgaramond_extrabold, FontWeight.ExtraBold),
+    Font(R.font.ebgaramond_medium, FontWeight.Medium),
+    Font(R.font.ebgaramond_semibold, FontWeight.SemiBold),
+)
