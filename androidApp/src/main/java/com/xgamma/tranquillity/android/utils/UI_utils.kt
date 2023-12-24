@@ -15,3 +15,7 @@ var urbanistFont = FontFamily(
     Font(R.font.urbanist_bold, FontWeight.Bold),
     Font(R.font.urbanist_extrabold, FontWeight.ExtraBold)
 )
+
+var sevillanaFont = FontFamily(
+    Font(R.font.sevillana_regular, FontWeight.Normal)
+)
