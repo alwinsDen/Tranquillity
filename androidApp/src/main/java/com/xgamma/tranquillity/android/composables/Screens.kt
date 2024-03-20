@@ -38,7 +38,7 @@ import com.xgamma.tranquillity.android.components.ThemeGrey
 import com.xgamma.tranquillity.android.components.TrnqStylized
 import com.xgamma.tranquillity.android.utils.HoriOptionHandle
 import com.xgamma.tranquillity.android.utils.bibleVerse
-import com.xgamma.tranquillity.android.utils.garamondFont
+import com.xgamma.tranquillity.android.utils.castoroFont
 import com.xgamma.tranquillity.android.utils.urbanistFont
 
 @Composable
@@ -83,14 +83,16 @@ fun WordOfDay() {
     Box(modifier = Modifier.clip(RoundedCornerShape(10))) {
         Column(
             modifier = Modifier
-                .background(color = Color(0xFF70A2C7))
+                .background(color = Color(0xFFB0D1E9))
                 .padding(15.dp),
             verticalArrangement = Arrangement.spacedBy(10.dp)
         ) {
             Text(
                 text = bibleVerse,
-                fontFamily = garamondFont,
-                fontSize = 20.sp,
+                fontFamily = castoroFont,
+                fontSize = 15.sp,
+                fontWeight = FontWeight.Bold,
+                lineHeight = 26.sp,
                 color = Color.White
             )
             Row(

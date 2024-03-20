@@ -30,3 +30,8 @@ var garamondFont = FontFamily(
     Font(R.font.ebgaramond_medium, FontWeight.Medium),
     Font(R.font.ebgaramond_semibold, FontWeight.SemiBold),
 )
+
+//added Castoro Titling font.
+var castoroFont = FontFamily(
+    Font(R.font.castorotitling_regular, FontWeight.Normal)
+)
